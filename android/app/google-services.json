@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "383309173591",
+    "project_id": "roktokona-7f552",
+    "storage_bucket": "roktokona-7f552.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383309173591:android:814bbd9c5e396ddef66412",
+        "android_client_info": {
+          "package_name": "com.example.roktokona"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnbZx56-Np1BHZ7N4vn2SpY39i8R7YDJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

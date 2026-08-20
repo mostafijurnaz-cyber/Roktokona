@@ -5,24 +5,40 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.12.2
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
+  # কোর ইউটিলিটিস, নেটওয়ার্ক ও লোকাল স্টোরেজ
   cupertino_icons: ^1.0.8
   http: ^1.2.0
   url_launcher: ^6.3.0
-  image_picker: ^1.2.3
+  shared_preferences: ^2.2.3
+  image_picker: ^1.1.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^4.0.0
+
+  # অ্যাপের আইকন পরিবর্তনের জন্য
+  flutter_launcher_icons: ^0.14.1
 
 flutter:
   uses-material-design: true
 
+  # প্রজেক্টের অ্যাসেটস ও লোগো পাথ
   assets:
     - assets/logo.png
+
+# অ্যাপ আইকন কনফিগারেশন
+flutter_launcher_icons:
+  image_path: "assets/logo.png"
+  android: true
+  ios: true
+  image_path_android: "assets/logo.png"
+  image_path_ios: "assets/logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo.png"
